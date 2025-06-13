@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>UBSR.HU - Contact</title>
+  </head>
+  <body class="bg-black text-gray-300 min-h-screen">
+    <!--Nav-->
+    <div class="flex justify-evenly items-center py-4 border-b border-gray-700">
+      <h1 class="text-3xl mx-5">UBSR.HU</h1>
+      <div class="text-xl mx-5 flex gap-5 text-gray-400">
+        <a href="index.html" class="hover:text-white transition">HOME</a>
+        <a href="contact.html" class="hover:text-white transition">CONTACT</a>
+        <a
+          href="https://discord.gg/GWV7MTZzHg"
+          class="hover:text-white transition"
+          >DISCORD</a
+        >
+      </div>
+    </div>
+
+    <!--Content-->
+    <div class="flex justify-center items-center min-h-[80vh] px-10">
+      <!--Contact Form-->
+      <div
+        class="md:w-1/2 border border-gray-700 p-6 rounded-lg flex flex-col space-y-4"
+      >
+        <input
+          type="email"
+          id="email"
+          placeholder="zalanjozsa153@gmail.com"
+          class="border border-gray-700 bg-black text-gray-300 rounded-md px-4 py-2 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-600 transition"
+        />
+        <textarea
+          id="message"
+          placeholder="Szeretnék egy weboldalt"
+          rows="4"
+          class="border border-gray-700 bg-black text-gray-300 rounded-md px-4 py-2 resize-none placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-600 transition"
+        ></textarea>
+        <button
+          class="px-6 py-3 border border-gray-700 rounded-md hover:bg-gray-800 hover:border-gray-600 text-gray-300 hover:text-white focus:ring-gray-600 transition"
+        >
+          Küldés
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
